@@ -1,0 +1,214 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(../font/Roboto-Bold.ttf) format("truetype");
+    font-weight: bold;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+.tile-thumbnail {
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+}
+.full-block{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.hide{
+    display: none;
+}
+#page-container{
+    position: absolute;
+}
+.back-button{
+    position: absolute;
+    top: 40px;
+    left: 34px;
+    width: 278px;
+    height: 78px;
+}
+.home-main{
+    background-image: url("../images/levels/Home-Main.png")
+}
+.return-home{
+    background-image: linear-gradient(45deg, #b91f2a, #a51c26);
+    box-shadow: 0px 1px 3px #666666;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 28px;
+    position: absolute;
+    width: 290px;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 7px;
+    top: 40px;
+    left: 34px;
+}
+.return-home:hover{
+    background-image: linear-gradient(to bottom, #a51c26, #b91f2a);
+    text-decoration: none;
+}
+.home-visit-button{
+    position: absolute;
+    width: 225px; 
+    height: 100px;
+    left: 1659px;
+    top: 89px;
+}
+.home-button{
+    position: absolute;
+    width: 129px; 
+    height: 129px;
+    left: 1779px;
+    top: 14px;
+}
+.return-button{
+    position: absolute;
+    width: 129px; 
+    height: 129px;
+    left: 17px;
+    top: 14px;
+}
+.quit-popup{
+    position: absolute;
+    width: 1920px; 
+    height: 1080px;
+    left: 0px;
+    top: 0px;
+}
+.continue-button{
+    position: absolute;
+    width: 370px; 
+    height: 204px;
+    left: 521.6px;
+    top: 589px;
+}
+.quit-button{
+    position: absolute;
+    width: 370px; 
+    height: 204px;
+    left: 1016.6px;
+    top: 589px;
+}
+.full-screen-button{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    top: 37px;
+    left: 165px;
+}
+.location-kitchen-button{
+    position: absolute;
+    width: 717px; 
+    height: 315px;
+    left: 143px;
+    top: 400px;
+}
+.location-bathroom-button{
+    position: absolute;
+    width: 717px; 
+    height: 315px;
+    left: 1066px;
+    top: 400px;
+}
+.kitchen-begineer-button, .bathroom-begineer-button{
+    position: absolute;
+    width: 325px; 
+    height: 252px;
+    left: 1591px;
+    top: 582px;
+}
+.kitchen-intermediate-button, .bathroom-intermediate-button{
+    position: absolute;
+    width: 325px; 
+    height: 252px;
+    left: 1287px;
+    top: 397px;
+}
+.kitchen-advanced-button, .bathroom-advanced-button{
+    position: absolute;
+    width: 325px; 
+    height: 252px;
+    left: 793px;
+    top: 66px;
+}
+.touch-point{
+    position: absolute;
+}
+.popup{
+    position: absolute;
+}
+.counter-display{
+    position: absolute;
+    left: 1738px;
+    top: 915px;
+    width: 128px;
+    height: 128px;
+    overflow: hidden;
+}
+.counter-display img{
+    animation: spin 2s cubic-bezier(0.645, 0.045, 0.355, 1) infinite;
+}
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+.counter-number{
+    position: absolute;
+    display: flex;   
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 66px;
+}
+.toast-box{
+    position: absolute;
+    top: 1090px;
+    width: 1920px;
+    height: 200px;
+    font-size: 35px;
+    text-align: center;
+    z-index: 100;
+}
+.toast-box span{
+    width: 1393px;
+    height: 42px;
+    background-color: black;
+    color: white;
+    padding: 29px;
+    border-radius: 79px;
+    opacity:0.7;
+    border: solid 7px yellow;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    box-shadow: 3px 3px 10px 5px #000, 0 0 4px rgba(0, 0, 0, .5) inset;
+    display: inline-block;
+}
+.try-other-level-button{
+    position: absolute;
+    width: 292px;
+    height: 220px;
+    top: 782px;
+    left: 130px;
+}
+.try-other-location-button{
+    position: absolute;
+    width: 332px;
+    height: 220px;
+    top: 794px;
+    left: 626px;
+}
+.summary-header{
+    position: absolute;
+    pointer-events: none; 
+    width: 1920px;
+    height: 182px;
+    top: -182px;
+    left: 0px;
+}
