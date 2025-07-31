@@ -1,4 +1,4 @@
-# 🌊 Water Guru – Spot and Touch The Difference
+# Water Guru – Spot and Touch The Difference
 
 Challenge yourself to **spot the environmental differences** in various eco-themed scenes!  
 An interactive touchscreen game designed to promote environmental awareness through play.
@@ -9,13 +9,13 @@ An interactive touchscreen game designed to promote environmental awareness thro
 
 ---
 
-## 📌 Overview
+## Overview
 
 **Water Guru – Spot and Touch The Difference** is an educational game that engages players in identifying visual changes across two eco-scenes. Developed for **Marsiling Secondary School's Environmental Hub**, the game teaches sustainability concepts in a fun, interactive way.
 
 ![Screenshot](./assets/images/screenshot.jpg "Spot the difference")
 
-### 🔍 Features
+### Features
 
 - 🖼️ Eco-themed spot-the-difference gameplay  
 - 📱 Touchscreen-optimized for kiosks and tablets  
@@ -25,13 +25,13 @@ An interactive touchscreen game designed to promote environmental awareness thro
 
 ---
 
-## 🧱 Tech Stack
+## Tech Stack
 
 - HTML5, CSS3, JavaScript
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 To run locally:
 
@@ -41,4 +41,9 @@ cd water-guru
 open index.html
 ```
 
+---
+
 ## License
+
+This project is licensed under the MIT License.  
+See the [`LICENSE`](./LICENSE) file for full details.
